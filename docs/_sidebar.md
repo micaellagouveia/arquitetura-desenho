@@ -1,8 +1,10 @@
 - [**Home**](/README.md)
 - **Aulas**
-    - [**Requisitos**](aulas/aula1-requisitos.md)
-      - [- Elicitação](aulas/aula2-elicitacao.md)
-      - [- Modelagem](aulas/aula3-modelagem.md)
-      - [- Análise](aulas/aula4-analise.md)
-    - [**Abordagens não específicas**](aulas/aula5-abordagens.md)
-      - [- Estimativas](aulas/estimativas.md)
+    - [**Requisitos**](aulas/requisitos/requisitos.md)
+      - [- Elicitação](aulas/requisitos/elicitacao.md)
+      - [- Modelagem](aulas/requisitos/modelagem.md)
+      - [- Análise](aulas/requisitos/analise.md)
+    - [**Abordagens não específicas**](aulas/requisitos/abordagens.md)
+      - [- Estimativas](aulas/requisitos/estimativas.md)
+    - Metodologias
+      - [RUP](aulas/metodologias/rup.md)
