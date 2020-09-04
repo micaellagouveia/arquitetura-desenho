@@ -8,3 +8,4 @@
       - [- Estimativas](aulas/requisitos/estimativas.md)
     - Metodologias
       - [RUP](aulas/metodologias/rup.md)
+      -[SCRUM](aulas/metodologias/scrum.md)
