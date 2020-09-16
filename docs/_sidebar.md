@@ -9,3 +9,5 @@
     - Metodologias
       - [RUP](aulas/metodologias/rup.md)
       -[SCRUM](aulas/metodologias/scrum.md)
+    - Modelagem
+      - [UML](aulas/modelagem/UML.md)
