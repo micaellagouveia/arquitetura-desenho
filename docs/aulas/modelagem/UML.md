@@ -1,4 +1,4 @@
-# Modelagem UML
+# Modelagem UML Estática
 É uma notação visual, com diagramas que ajudam a desenhar uma solução computacional em diferetens níveis de abtração e/ou perspectivas.
 
 **Abordagens tradicionais**:
@@ -44,11 +44,40 @@
 ![associacao](../../imagens/associacao.png)
 
 * **Agregação**
-* **Composição**
-* **Generalização**
-* **Realização**
+    * Uma associação de pertencimento. Ex: Empresa **tem** funcionário
+    * Noção de Todo e Parte.
+    * O se não tiver a parte, o todo ainda existe? Se sim, é uma agregação
+    * Há relação de cardinalidade
+    * Representada por um losango vazio na classe do Todo.
 
-## Diagrama de Componentes
+![agregação](../../imagens/agregacao.png)
+    
+* **Composição**
+    * Semântica: Todo **tem** parte? Todo **é composto** por parte?
+    * Todo é idependente da parte? Se não, é uma composição
+    * Há relação de cardinalidade
+    * Representada por um losango pintado na classe do Todo
+    * Perigo: Dependência muito forte, código muito acoplado, para a manutenção do software não é trivial.
+
+![composição](../../imagens/composicao.png)
+
+
+* **Herança (Generalização)**:
+    * Representado por uma seta para a classe mãe
+    * Relação de extends
+
+
+![herança](../../imagens/heranca.png)
+
+
+* **Realização (Interface)**
+    * Relaçao de implements
+    * Representado por uma seta com linha tracejada
+
+![realizacao](../../imagens/realizacao.png)
+
+
 ## Diagrama de Pacotes
-## Diagramas Comportamentais/Dinâmicos
+## Diagrama de Componentes
+
 
