@@ -10,10 +10,10 @@
 * São exibidos um conjunto de classes, interfaces e seus relacionamentos
 *  As classes especificam tanto as propriedades quanto a parte mais comportamental dos objetos.
 
-<https://www.umn-diagrams.org/class-diagrams-overview.html>
+<https://www.uml-diagrams.org/class-diagrams-overview.html>
 
 |   **Nome**    |   Celular   |
-| --------- | ----------- |
+| ------------- | ----------- |
 | **Atributos** | modelo      |
 | **Operações** | atualizar() |
 
@@ -27,7 +27,7 @@
 
 ![diagrama classe](../../imagens/diagramaClasse.png)
 
-### Relacionamentos
+## Relacionamentos
 * **Dependência** 
     * new Object()
     * Recebimento como parâmetro
@@ -78,6 +78,21 @@
 
 
 ## Diagrama de Pacotes
-## Diagrama de Componentes
+* Diagrama com cunho organizacional, estrutural o qual permite organizar o sistema como se representasse uma visão em módulos
 
+<https://www.uml-diagrams.org/package-diagrams-overview.html>
+
+![diagrama pacotes](../../imagens/diagramaPacotes.png)
+
+* Relações
+
+![diagrama pacotes 2](../../imagens/diagramaPacotes2.png)
+
+## Diagrama de Componentes
+* Representação dos módulos
+* Comunicação padronizada
+* Representação de interfaces
+
+![diagrama componentes](../../imagens/diagramaComponentes.png)
+* *quadrados*: portas
 

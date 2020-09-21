@@ -10,4 +10,4 @@
       - [RUP](aulas/metodologias/rup.md)
       -[SCRUM](aulas/metodologias/scrum.md)
     - Modelagem
-      - [UML](aulas/modelagem/UML.md)
+      - [UML Estática](aulas/modelagem/UML_Estatica.md)
