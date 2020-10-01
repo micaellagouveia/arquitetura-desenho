@@ -17,6 +17,7 @@
 | **Atributos** | modelo      |
 | **Operações** | atualizar() |
 
+
 | Símbolo | Acesso | Exemplo |
 | ------- | ------ | ------- |
 | + | public | + atributo_01, + op_01() |

@@ -11,3 +11,5 @@
       -[SCRUM](aulas/metodologias/scrum.md)
     - Modelagem
       - [UML Estática](aulas/modelagem/UML_Estatica.md)
+    - Padrões de Projeto
+      - [GoF Criacional](aulas/padroes/GOF/criacional.md)
