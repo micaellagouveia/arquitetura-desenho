@@ -12,4 +12,5 @@
     - Modelagem
       - [UML Estática](aulas/modelagem/UML_Estatica.md)
     - Padrões de Projeto
+      - [GRASP](aulas/padroes/GRASP/criacional.md)
       - [GoF Criacional](aulas/padroes/GOF/criacional.md)
