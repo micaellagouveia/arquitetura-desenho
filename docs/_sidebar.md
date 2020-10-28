@@ -17,4 +17,4 @@
       - [GoF Estrutural](aulas/padroes/GOF/estrutural.md)
     - Arquitetura
       - [Arquiteturas e Estilos Arquiteturais](aulas/arquitetura/Padroes1.md)
-      - [Padrões Arquiteturais](aulas/arquitetura/Padroes1.md)
+      - [Padrões Arquiteturais](aulas/arquitetura/Padroes2.md)
