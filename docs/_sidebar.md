@@ -14,3 +14,7 @@
     - Padrões de Projeto
       - [GRASP](aulas/padroes/GRASP/criacional.md)
       - [GoF Criacional](aulas/padroes/GOF/criacional.md)
+      - [GoF Estrutural](aulas/padroes/GOF/estrutural.md)
+    - Arquitetura
+      - [Arquiteturas e Estilos Arquiteturais](aulas/arquitetura/Padroes1.md)
+      - [Padrões Arquiteturais](aulas/arquitetura/Padroes1.md)
