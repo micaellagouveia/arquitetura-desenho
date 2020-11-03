@@ -29,8 +29,8 @@ As classes nesse diagrama sao:
 * Prototype (muito utilizado em jogos)
     * Possibilitar a criação de novos objetos a partir da cópia de objetos existentes
 * Singleton
-    * Permitir a criaçõ de uma única instância de um classe e fornecer um modo de recuperá-la
+    * Permitir a criação de uma única instância de um classe e fornecer um modo de recuperá-la.
 * Multiton
-    * Permitir a criação de uma quantidade limitada de instâncias de determinada classe e fornecer um modo para recuperá-las
+    * Permitir a criação de uma quantidade limitada de instâncias de determinada classe e fornecer um modo para recuperá-las.
 * Object Pool (muito utilizado em jogos)
-    * Possibilitar o reproveitamento de objetos
+    * Possibilitar o reproveitamento de objetos.

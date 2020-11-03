@@ -16,5 +16,6 @@
       - [GoF Criacional](aulas/padroes/GOF/criacional.md)
       - [GoF Estrutural](aulas/padroes/GOF/estrutural.md)
     - Arquitetura
-      - [Arquiteturas e Estilos Arquiteturais](aulas/arquitetura/Padroes1.md)
-      - [Padrões Arquiteturais](aulas/arquitetura/Padroes2.md)
+      - [Arquiteturas](aulas/arquitetura/intro.md)
+      - [Estilos Arquiteturais](aulas/arquitetura/Estilos.md)
+      - [Padrões Arquiteturais](aulas/arquitetura/Padroes.md)
