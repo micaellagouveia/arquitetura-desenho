@@ -108,9 +108,58 @@ O cliente constói uma mensagem e a envia num pacote UDP para o servidor, o qual
 | Vantagens | Desvantagens |
 |-----------|--------------|
 | Elimina o gargalo de fonte única, usando o P2P para distribuir dados e fazer o balancemaneto de pedidos na rede| Implementação bem mais complexa, demandando mais conhecimento da equipe de implantação e manuntenção
-| ELimina o risco de um único ponto de falha | Overheads - Comunicações replicadas entre pares, ou seja, mesma busca sendo processada por muitos nó diferentes |
+| Elimina o risco de um único ponto de falha | Overheads - Comunicações replicadas entre pares, ou seja, mesma busca sendo processada por muitos nó diferentes |
 | A infraestrutura P2P permite acesso direto aos recursos compartilhados e isso confere capacidade de manutenção remota|
 
 ## Estilo Objetos Distribuídos
 É uma arquitetura de sistemas distribuídos muito parecida com P2P, porém possui um Middleware, intermediando o processo de comunicação.
 
+
+## Estilo Filtros e Dutos
+
+Oferece uma estrutura para sistemas que processam fluxos de dados, considerando a existÊncia de uma rede pela qual flui os dados de um extremidade (origem) à outra (destino).
+
+* O fluxo de dados se dá através de pipes (dutos) e os dados sofrem transformações quando processados nos filters (filtros).
+* Um duto provê uma forma unidirecional de fluxo de dados, uma vez que atua como um condutor para o fluxo de dados entre a fonte e o destino.
+*  Divide uma grande tarefa de processamento em uma sequência de pequenos e independentes passos de processamento (Filters), os quais são conectados por canais (Pipes).
+
+* **Filtro (Filter)**
+1. Receber o dado da entrada
+2. Processar o dado
+3. Colocar o dado na saída
+
+* ***Duto (Pipe)**
+1. Transferir o dado
+2. Realiza "buffer"
+3. Sincronizar os filtros vizinhos
+
+* **Outros Participantes**
+1. Fontes de dados (Data source)
+2. Coletor de dados (Dara sink)
+
+| Vantagens | Desvantagens |
+|-----------|--------------|
+| O resultado é uma composição de filtros| Mudanças frequentes em um filtro impacta outros|
+| Facilita o entendimento de Todo e Parte |Difícil uso em aplicações iterativas, pois coloca em ênfase o mado "batch"|
+| Manutenabilidade mais flexível | Pode ter deadlock com o uso de buffers finitos|
+| Facilita a reutilização, manutenção e extensão |
+| Desempenho melhorado pelo processamento paralelo de filtros|
+
+## Estilo Repositório
+Subsistemas devem trocar dados. Isso pode ser feito de duas formas,
+principais:
+* Dados compartilhados são guardados em um banco de dados central ou
+repositório, e podem ser acessados por todos os subsistemas, ou
+* Cada subsistema mantém seu próprio banco de dados, e transmite dados
+explicitamente para outros subsistemas.
+
+Quando grandes quantidades de dados devem ser compartilhadas, é mais comum o uso do modelo de **repositório compartilhado**, sendo esse um eficiente mecanismo de compartilhamento de dados. Sendo que todos os dados em um sistema serão gerenciados em um único repositório central, acessível a todos os componentes do sistema. Os componentes não interagem entre si, apenas por meio deste repositório.
+
+* Muito utilizado quabdo um sistema demanda grande volume de informação, que precisa ser geradoe armazenado por um longo tempo.
+* Há também aplicabilidade ao estilo quando os sistemas são dirigidos a dados, nos quais a inclusão desses dados no repositório dispara uma ação
+
+| Vantagens | Desvantagens |
+|-----------|--------------|
+| Os componentes podem ser independentes, então alterações feitas em um componente não costuma influenciar outro | O repositório é um ponto único de falha, problemas nele podem afetar o sistema todo |
+| Todos os dados podem ser gerenciados de forma consistente, pois há centralização desses dados em um único repositório | Podem ocorrer ineficiências na organização de toda a comunicação por meio do repositório |
+| | Distribuí-lo por meio de vários computadores pode ser complicado |
