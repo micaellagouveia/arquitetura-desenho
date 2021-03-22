@@ -26,14 +26,14 @@
 
 <br><br>
 
-![diagrama classe](../../imagens/diagramaClasse.png)
+![diagrama classe](../imagens/diagramaClasse.png)
 
 ## Relacionamentos
 * **Dependência** 
     * new Object()
     * Recebimento como parâmetro
 
-![dependencia](../../imagens/dependencia.png)
+![dependencia](../imagens/dependencia.png)
 
 * **Associação** 
     * Especifica a direção da associação (unilateral e bilateral)
@@ -42,7 +42,7 @@
     * Voz passiva (Conta é possuída pela pessoa)
     * Associação reflexiva: cardialidade na mesma classe
 
-![associacao](../../imagens/associacao.png)
+![associacao](../imagens/associacao.png)
 
 * **Agregação**
     * Uma associação de pertencimento. Ex: Empresa **tem** funcionário
@@ -51,7 +51,7 @@
     * Há relação de cardinalidade
     * Representada por um losango vazio na classe do Todo.
 
-![agregação](../../imagens/agregacao.png)
+![agregação](../imagens/agregacao.png)
     
 * **Composição**
     * Semântica: Todo **tem** parte? Todo **é composto** por parte?
@@ -60,7 +60,7 @@
     * Representada por um losango pintado na classe do Todo
     * Perigo: Dependência muito forte, código muito acoplado, para a manutenção do software não é trivial.
 
-![composição](../../imagens/composicao.png)
+![composição](../imagens/composicao.png)
 
 
 * **Herança (Generalização)**:
@@ -68,14 +68,14 @@
     * Relação de extends
 
 
-![herança](../../imagens/heranca.png)
+![herança](../imagens/heranca.png)
 
 
 * **Realização (Interface)**
     * Relaçao de implements
     * Representado por uma seta com linha tracejada
 
-![realizacao](../../imagens/realizacao.png)
+![realizacao](../imagens/realizacao.png)
 
 
 ## Diagrama de Pacotes
@@ -83,17 +83,17 @@
 
 <https://www.uml-diagrams.org/package-diagrams-overview.html>
 
-![diagrama pacotes](../../imagens/diagramaPacotes.png)
+![diagrama pacotes](../imagens/diagramaPacotes.png)
 
 * Relações
 
-![diagrama pacotes 2](../../imagens/diagramaPacotes2.png)
+![diagrama pacotes 2](../imagens/diagramaPacotes2.png)
 
 ## Diagrama de Componentes
 * Representação dos módulos
 * Comunicação padronizada
 * Representação de interfaces
 
-![diagrama componentes](../../imagens/diagramaComponentes.png)
+![diagrama componentes](../imagens/diagramaComponentes.png)
 * *quadrados*: portas
 

@@ -11,7 +11,7 @@
 3. Construção
 4. Transição
 
-![Grafico RUP](../../imagens/graficoRUP.png)
+![Grafico RUP](../imagens/graficoRUP.png)
 
 ## Alinhado à notação UML
 * Diagramas de Classe

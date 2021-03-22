@@ -1,21 +1,3 @@
-- [**Home**](/README.md)
-- **Aulas**
-    - [**Requisitos**](aulas/requisitos/requisitos.md)
-      - [- Elicitação](aulas/requisitos/elicitacao.md)
-      - [- Modelagem](aulas/requisitos/modelagem.md)
-      - [- Análise](aulas/requisitos/analise.md)
-    - [**Abordagens não específicas**](aulas/requisitos/abordagens.md)
-      - [- Estimativas](aulas/requisitos/estimativas.md)
-    - Metodologias
-      - [RUP](aulas/metodologias/rup.md)
-      -[SCRUM](aulas/metodologias/scrum.md)
-    - Modelagem
-      - [UML Estática](aulas/modelagem/UML_Estatica.md)
-    - Padrões de Projeto
-      - [GRASP](aulas/padroes/GRASP/criacional.md)
-      - [GoF Criacional](aulas/padroes/GOF/criacional.md)
-      - [GoF Estrutural](aulas/padroes/GOF/estrutural.md)
-    - Arquitetura
-      - [Arquiteturas](aulas/arquitetura/intro.md)
-      - [Estilos Arquiteturais](aulas/arquitetura/Estilos.md)
-      - [Padrões Arquiteturais](aulas/arquitetura/Padroes.md)
+* [**Arquitetura e Desenho de Software**](index/arquitetura.md)
+* [**Sistema de Banco de Dados 1**](index/bancos1.md)
+* [Qualidade de Software](index/qualidade.md)

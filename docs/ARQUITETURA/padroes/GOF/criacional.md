@@ -19,7 +19,7 @@ As classes nesse diagrama sao:
 4. **ConcreteCreator**: sobrescreve o método gerador para criar objetos ConcreteProduct. *(Exemplo: PáginaDeHabilidades, PaginaProfissional, ...)*
     * Sobrescreve o factory method para retornar uma instância de ConcreteProduct.
 
-![factory method](../../../imagens/factoryMethod.png)
+![factory method](../imagens/factoryMethod.png)
 
 
 * Abstract Factory

@@ -8,5 +8,5 @@
 * Todas as iterações devem ter algo entregável.
 * Sprint Planning, Dailys, Sprint Review, Retrospective
 
-![scrum](../../imagens/scrum.png)
-![scrum1](../../imagens/scrum1.png)
+![scrum](../imagens/scrum.png)
+![scrum1](../imagens/scrum1.png)

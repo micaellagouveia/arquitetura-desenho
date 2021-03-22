@@ -20,7 +20,7 @@ Mais simples dos estilos arquiteturais. Basicamente, baseia-se em projetar uma s
 Usado para modelar a interface dos subsistema, organiza o sistema em um conjunto de camadas, cada uma das quais fornece um conjunto de serviços. Esse padrão apoia o desenvolvimento incremental de subsistemas em diferentes camadas, e quando uma camada é alterada, normalmente, apenas a camada adjacente é afetada.
 
 *Modelo OSI*
-![n-camadas](../../imagens/nCamadas.png)
+![n-camadas](../imagens/nCamadas.png)
 
 **CUIDADOS:**
 * As camadas de níveis superiores dependem das camadas de níveis inferiores.
